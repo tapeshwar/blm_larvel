@@ -1,0 +1,114 @@
+
+/*our story*/
+.our-story{
+	font-family: 'Syne', sans-serif;
+}
+.our-story h4{
+	letter-spacing: -.01em;
+	color: #000;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1em;
+	margin: 25px 0px 0px;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+.our-story .font-italic{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: eb garamond,serif;
+	line-height: 1.1em;
+	color: #626262;
+	margin-top: 10px;
+}
+.testimonial.ourstory{
+	font-family: 'Syne', sans-serif;
+	background: #fff;
+}
+.testimonial.ourstory h4{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 30px;
+	color: #000;
+}
+
+.testimonial.ourstory .slick-next:before, .testimonial.ourstory .slick-prev:before{margin-top: 60px;}
+
+.contact-us .addres{background: #fff;}
+
+
+.contact_us { margin: 70px 0px; font-family: 'Syne', sans-serif;}
+
+.contact_us .address { background: transparent; padding: 15px; height: 200px; }
+
+.contact_us .address a { text-decoration: none; color: #000; }
+
+.contact_us .address p { font-size: 14px; }
+
+.contact_us .address h3 { font-size: 16px; }
+
+.contact-map-section iframe { width: 100%; }
+.avia_textblock{margin: 0 auto; text-align:center;}
+.avia_textblock img{width: 130px; border: 1px solid #ddd; border-radius: 0%; padding: 15px; box-shadow: 0px 2px 6px 0px gainsboro;}
+.carthead .title h3{letter-spacing: -.01em;color: #000;font-size: 47px;line-height: .978em;margin: 25px 0;-ms-word-wrap: break-word;word-wrap: break-word; font-weight: 600;}
+
+
+.info-slider{position: absolute;top: 50%;left: 50%;width: 700px;transform: translate(-50%, -50%);background: #fff;text-transform: uppercase;text-align: center;margin: 0 auto;padding: 26px;font-weight: 600;font-family: 'Syne', sans-serif;}
+.info-slider h1{font-weight: 400;font-size: 32px;letter-spacing: 2px;margin-bottom: 0;font-family: 'Syne', sans-serif;}
+.find-salon-map .container{margin: 0 auto;}
+.input-box .btn{background: #cd791f; color: #fff; letter-spacing: 1px; padding: 5px 65px; font-size: 20px;border-radius: 0;text-transform: uppercase;}
+.input-box{background: rgb(243 243 243 / 78%);padding: 15px; display: flex; justify-content: space-around; margin-top: 0px;}
+.input-box i{font-size: 20px;}
+.ortext{padding: 10px; font-size: 18px; font-weight: 600;}
+.input-icon-wrap{position: relative; }
+.input-icon-wrap .input-with-icon{padding: 11px 54px 9px 9px; border: 1px solid #bfbfbf; outline: none;     width: 350px;}
+.input-icon-wrap .input-icon{background: #cd791f; color: #fff; padding: 10px 20px;}
+.input-icon{position: absolute;right: 8px; top: 9px; color: #a5a5a5;}
+.input-with-icon{width: 245px; }
+.filter-box{font-family: 'Syne', sans-serif;}
+.input-icon{border: 0; padding: 10px 14px; top: 1px; right: 1px; font-size: 17px;}
+.filter-box .separato{margin: 12px auto; border-top: 1px solid #333; box-shadow: none; width: 80px; position: absolute; top: 50%; left: 41%;}
+.find-text p{font-weight: 600; font-style: italic; font-size: 16px;}
+.result-search{text-align: center; font-family: 'Syne', sans-serif; padding-bottom: 50px;}
+.result-search p{font-size: 24px; color: #888787;}
+.result-search h3{margin-top: 0;font-size: 30px; letter-spacing: 4px; font-weight: 700;}
+.filter-your-search{text-align: center;}
+.filter-left .list h4{font-size: 16px; font-weight: 600; border-bottom: 1px solid #323232;}
+.filter-left .list h5{font-weight: 600; padding: 10px 0px; font-size: 18px; position: relative;}
+.filter-left .list h4 span{border-bottom: 3px solid #323232; }
+.contact p{border: 1px solid #4c4c4c;padding: 10px 18px; font-weight: 600;}
+.contact button{padding: 10px 12px; background: #fff; border: 1px solid #353535; font-weight: 600;}
+.contact button i{font-size: 16px;}
+.filter-left .adrs{line-height: 26px;}
+.filter-left .mapicon i{font-size: 30px; color: #eb6b66;}
+.filter-left .list{ font-family: 'Syne', sans-serif; padding-bottom: 35px; padding-top: 20px; margin-right: 15px;}
+.filter-left .phone{border: 1px solid #ff8604;}
+.filtermain{position: relative; border-bottom: 1px solid #323232; margin-bottom: 20px;}
+.filtermain .clickf{padding: 16px 80px; display: inline-table; margin-bottom: 0;font-family: 'Syne', sans-serif; font-weight: 700;     border-bottom: 0;}
+.filtermain .clickf i{font-weight: 400;}
+.find-salon-map{margin: 0px 0px 50px 0px;}
+.filter-width{max-width: 780px; margin: 0 auto;}
+.find-salon-map .filter-box{background: rgb(243 243 243 / 78%); margin-bottom: 70px;}
+
+
+.filter-box .result-search{padding: 35px 0px;}
+.find-salon-map .filter-left{height: 500px; overflow-y: scroll;}
+/*.filt-box{display: none; justify-content: space-around; position: absolute; width: 100%; z-index: 1; background: #fff; border: 1px solid #323232; margin-top: -1px; left: 0;}*/
+.apply{padding: 8px 55px; background: #323232; color: #fff; margin: 20px 0px; text-transform: uppercase;}
+.apply:hover{padding: 8px 55px; background: #323232; color: #fff; margin: 20px 0px; border-radius: 0; text-transform: uppercase;}
+.filt-box label{margin: 10px 12px; }
+.filter-map{height: 520px;}
+.filter-map img{width: 100%; height: 500px;}
+.filt-box{max-width: 800px !important; margin: 0 auto;}
+
+@media only screen and (max-width: 767px) {
+
+	.filter-box .input-box{display: block;}
+	.filter-box .input-box .btn{width: 100%; margin-bottom: 10px;}
+	.filter-box .input-icon-wrap{margin-top: 10px;}
+	.info-slider h1{font-size: 26px;}
+	.info-slider p{font-size: 12px;}
+	.filt-box.d-flex{display: block;}
+	.home-slider .img_slider img{height: 60vh;}
+}
