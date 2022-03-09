@@ -1,0 +1,45 @@
+INITIATE GIT AND UPLOAD FILE TO GITHUB REPOSITORY
+-----------------------------------------------------
+git init
+git config --global user.name tapeshwar
+git config --global user.email tapeshwar.pandit@maisondauraine.in
+git add -A – To add all the untracked files to staging area
+git commit -m “Any Commit message” – to add the commit and message shortcut
+git remote add origin https://github.com/tapeshwar/dtr_base.git
+git push origin master
+
+---------------------------------------------
+
+FIND SECOND LARGEST NUMBER
+---------------------------------
+1. SELECT MAX(state_id) FROM `cities` WHERE state_id < (SELECT max(state_id) FROM cities)
+2. SELECT state_id FROM cities GROUP BY state_id ORDER BY state_id DESC LIMIT 1,1
+
+FIND THIRD LARGEST NUMBER
+--------------------------------
+SELECT MAX(state_id) FROM `cities` WHERE state_id < (SELECT max(state_id) FROM cities WHERE state_id < (SELECT max(state_id) FROM cities ) )
+
+FIND DUPLICATE VALUE IN A COLUMN
+------------------------------------
+SELECT code, COUNT(*) c FROM geopos_customers GROUP BY code HAVING c > 1;
+
+-----------------------------------------------
+CODEIGNITER DISPLAY ERRORS
+ini_set('display_errors', 1);
+
+-----------------------------------------------
+
+Need to Know
+--------------------
+Regular Expression
+Composer
+Packages.json
+status code
+@csrf
+
+-----------------------------------------------
+github credentials
+username aurainebotanicals
+email tapeshwar.pandit@aurainebotanicals.in
+
+------------------------------------------------
